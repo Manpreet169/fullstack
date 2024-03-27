@@ -1,0 +1,75 @@
+
+article, footer {
+    padding:0 70vh;
+}
+
+
+
+.img_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 60px;
+    width: 170px;
+}
+
+.header_p {
+    text-align: center;
+    color: #004D4C;
+    font-size: 10px;
+    border-top: 3px solid #fdfbf1;
+    padding-top: 1em;
+}
+
+/********sotto il logo e desc********/
+
+/*#container {
+    width: 500%;
+    border: 1px solid #000;
+    margin: 0 auto;
+
+}*/
+
+.titolo_img {
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.titolo_principale{
+    font-size: 25px;   
+}
+#desc_titolo { 
+    font-size: 11px;
+}
+
+#foto_focaccia {
+    width: 450px;
+    border-radius: 5px;
+}
+#cap_focaccia {
+    color: gray;
+}
+
+
+.featured {
+    border-left: 1px solid #fff4ba;
+    padding-left: 0.5em;
+}
+.featured_2 {
+    color: #4d0202;
+}
+
+
+
+
+.ingredients {
+    border-bottom: 1px solid rgb(201, 234, 248);
+    padding-bottom: 0.5em;
+}
+
+
+
+
