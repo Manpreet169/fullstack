@@ -1,0 +1,244 @@
+/* Your styles here */
+body {
+    font-family: "open sans", Geneva, Tahoma, sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    
+    margin: 0 auto;
+}
+
+/*h1, h2, h3, h4 { 
+    
+}*/
+
+
+
+.titoli {
+    font-family: "Montserrat", Geneva, Tahoma, sans-serif;
+    color: #25a2c3 ;
+    font-weight: bold;
+    line-height: 1.65;
+}
+
+
+/**********************HEADER-container2************************/
+
+
+
+#container1{
+    background-color: black;
+    padding-bottom: 10px;   
+    padding-left: 50px;
+    width: 100%px;
+    height: 130px;
+}
+
+#container1 img {
+    width: 220px;
+    left: 10px;
+    padding-top: 15px;
+}
+
+/***************CONTAINER 2****************/
+
+
+.container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.banner1 {
+   width: 100%px;
+    
+    /*non sono riuscito a ritagliare l'immagine usando css*/
+}
+
+#h1_1_cont1 {
+    padding-top: 30px;
+}
+
+.scritta_banner h1 {
+    font-size: 50px;
+}
+
+
+
+.scritta_banner {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);     
+    text-align: center;
+
+}
+.scritta_banner p {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+#container_partiamo {
+    width: 100px;
+    border: 2px solid #e22d0e;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #e22d0e ;
+}
+
+#partiamo {   
+    color: white;
+    
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+
+
+
+/************************CONTAINER3***************************/
+
+
+
+
+#container3 img {
+    float: left;
+    font-display: block;
+    border-radius: 50%;
+    margin-right: 250px;
+    width: 35%;
+    display: block;
+    margin-left: 5em;
+    
+    /*non sono riuscito a distanziare l'immagine dal margine*/
+}
+
+
+
+
+/***************************CONTAINER4***************************************/
+
+#container4 {
+    
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.titolo_cont4 {
+    font-weight: bolder;
+}
+
+.primariga_cont4 {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#ultimariga_cont4 {
+    font-size: 13px;
+}
+
+/*********************************CONTAINER 5*****************************************/
+
+
+#container5_img {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+.container5_foto1 {
+    /*width: 350px;*/
+    margin-top: 100px;
+    border: 1px solid #dee1e3;
+    /*padding-left: 10em;*/
+    text-align: center;
+    float: left;
+    width: 25.33%;
+    margin-left: 100px;
+    
+}
+
+/*non riuscivo a usare margin di qualunque tipo appena accorto dopo ore che era una cavolata di sbaglio ;-;*/
+
+
+
+.container5_foto1 img {
+    width: 350px;
+
+
+}
+
+
+
+
+/*****************************footer*************************/
+
+
+footer {
+    background-color: #25a2c3;
+    text-align: center;
+    color: #c8e7f0;
+    width: 100%;
+}
+
+
+
+#contattaci {
+    color: white;
+    
+}
+
+footer a {
+    color: white;
+}
+
+
+
+footer h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.copy {
+    text-align: center;
+    border-top: 1px solid white;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
