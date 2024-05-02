@@ -1,0 +1,26 @@
+@import url(./partials/Reset);
+@import url(./partials/animazioni);
+@import url(./partials/Bottoni);
+@import url(./partials/Mixins-generici);
+@import url(./partials/Spaziature);
+@import url(./partials/Font);
+
+header {
+  background-color: rgb(104, 6, 93);
+  nav {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  ul {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3em;
+    list-style-type: none;
+    margin-right: 3em;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
