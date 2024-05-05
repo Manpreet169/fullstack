@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./assets/netflix_logo.png"
+        width="100"
+        height="40"
+        class="d-inline-block align-top"
+        alt="Logo"
+      />
+    </header>
+
+    <main style="height: 100vh">
+      <div class="container h-100 d-flex justify-content-center">
+        <div
+          class="row justify-content-center container-sm-75 container-md-50 container-lg-50"
+        >
+          <div class="container-sm-75 container-md-50 container-lg-50">
+            <h1 class="h1 text-white">Edit Profile</h1>
+            <div class="mt-2 d-flex gap-3">
+              <img
+                src="./assets/kids_icon.png"
+                width="100"
+                height="100"
+                alt="Icon"
+              />
+              <div class="pb-3">
+                <div style="border-bottom: 2px solid #212121; width: 380px">
+                  <input
+                    type="text"
+                    class="form-control text-white mb-3"
+                    id="exampleInputUsername"
+                    value="Epicoder"
+                    readonly
+                    style="
+                      width: 200px;
+                      background-color: #666666;
+                      border: none;
+                    "
+                  />
+                  <h6 class="h6 text-white">Language:</h6>
+                  <div class="dropdown pb-3">
+                    <button
+                      class="btn btn-secondary dropdown-toggle text-white btn-sm"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      style="
+                        background-color: black;
+                        border: 1px solid white;
+                        border-radius: 0;
+                        width: 100px;
+                        height: auto;
+                      "
+                    >
+                      English
+                    </button>
+                    <ul
+                      class="dropdown-menu"
+                      style="background-color: black; border: 1px solid white"
+                    >
+                      <li>
+                        <a class="dropdown-item text-white" href="#"
+                          >Italiano</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item text-white" href="#">Deutsch</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item text-white" href="#"
+                          >français</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <p
+                    class="text-white"
+                    style="border-top: 2px solid #212121; width: 250px"
+                  >
+                    Maturity Settings:
+                  </p>
+                  <input
+                    type="text"
+                    class="form-control text-white mb-3"
+                    id="exampleInputUsername"
+                    value="ALL MATURITY RATINGS"
+                    readonly
+                    style="
+                      width: 200px;
+                      background-color: #333333;
+                      border: none;
+                    "
+                  />
+                  <p class="text-white" style="font-size: 11px">
+                    Show titles of all maturity ratings for this profile.
+                  </p>
+                  <button
+                    class="color-gray"
+                    type="button"
+                    style="
+                      border: 2px solid #7f7f7f;
+                      background-color: transparent;
+                      padding-left: 20px;
+                      padding-right: 20px;
+                    "
+                  >
+                    EDIT
+                  </button>
+                  <div>
+                    <p class="text-white">Autoplay Controls</p>
+                    <form>
+                      <div class="mb-3 form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="exampleCheckbox1"
+                        />
+                        <label
+                          class="form-check-label text-white"
+                          style="font-size: 11px"
+                          >Autoplay next episode on all devices.</label
+                        >
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="exampleCheckbox2"
+                        />
+                        <label
+                          class="form-check-label text-white"
+                          style="font-size: 11px"
+                          >Autoplay previews while browsing on all
+                          devices.</label
+                        >
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-3">
+              <button
+                style="
+                  background-color: white;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                  font-weight: bold;
+                "
+                type="submit"
+              >
+                SAVE
+              </button>
+              <button
+                style="
+                  border: 2px solid #7f7f7f;
+                  background-color: transparent;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                "
+                class="color-gray"
+                type="button"
+              >
+                CANCEL
+              </button>
+              <button
+                style="
+                  border: 2px solid #7f7f7f;
+                  background-color: transparent;
+                  padding-left: 20px;
+                  padding-right: 20px;
+                "
+                class="color-gray"
+                type="button"
+              >
+                DELETE PROFILE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

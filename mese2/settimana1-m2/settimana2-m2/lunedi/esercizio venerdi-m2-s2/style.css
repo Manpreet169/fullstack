@@ -1,0 +1,29 @@
+body {
+  background-color: #141414;
+}
+
+.white-text-header .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 0.875em;
+}
+
+.img-hover {
+  transition: transform 1s;
+}
+.img-hover:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  overflow: visible;
+}
+
+.color-gray {
+  color: #7f7f7f;
+}
+
+.color-dark-gray {
+  color: #767779;
+}
+
+.footer-anchor {
+  margin-bottom: 20px;
+}
