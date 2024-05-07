@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrazione Utente</title>
+  </head>
+  <body>
+    <div>
+      <p>Nome salvato:</p>
+      <p id="savedName"></p>
+    </div>
+
+    <div>
+      <input type="text" id="nameInput" placeholder="Inserisci il tuo nome" />
+      <button onclick="saveName()">Salva</button>
+      <button onclick="removeName()">Rimuovi</button>
+    </div>
+
+    <div>
+      <p>Tempo trascorso:</p>
+      <p id="timer">0 secondi</p>
+    </div>
+
+    <script>
+      function saveName() {
+        var name = document.getElementById("nameInput").value;
+        localStorage.setItem("username", name);
+        document.getElementById("savedName").textContent = name;
+      }
+
+      function removeName() {
+        localStorage.removeItem("username");
+        document.getElementById("nameInput").value = "";
+        document.getElementById("savedName").textContent = "";
+      }
+
+      window.onload = function () {
+        var savedName = localStorage.getItem("username");
+        if (savedName) {
+          document.getElementById("nameInput").value = savedName;
+          document.getElementById("savedName").textContent = savedName;
+        }
+      };
+    </script>
+  </body>
+</html>
